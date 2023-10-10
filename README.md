@@ -1,2 +1,3 @@
 # jwt-auth
-A user authentication system utilizing token-based security. 
+
+A user authentication system utilizing token-based security.
