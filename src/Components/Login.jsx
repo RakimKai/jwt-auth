@@ -15,7 +15,6 @@ const Login = () => {
 
   const handleConfirm = async (e) => {
     e.preventDefault();
-    console.log(user);
     if (user.username && user.password) {
       const response = await axios.get(
         `https://localhost:7109/api/Users/check-username-password?username=${user.username}&password=${user.password}`
